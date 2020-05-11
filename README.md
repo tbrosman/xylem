@@ -45,9 +45,11 @@ renderer.renderAndApply(element, parentHeapsObject);
 ## FAQ
 
 Q: Why is it called Xylem?
+
 A: [Xylem](https://en.wikipedia.org/wiki/Xylem) is the stuff that trees are made of. Much like React, it is a framework for transforming trees of Elements and then applying side-effects to something DOM-like.
 
 Q: How much of the React API surface is supported?
+
 A: Not much. This is mostly an experiment to see if I could replicate some of the laziness characteristics of React's Fiber reconciler. You can:
 
 * Build Elements that output other Elements (note: probably should be called "Component"; naming needs some cleanup)
