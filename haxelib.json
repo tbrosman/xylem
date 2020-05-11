@@ -1,0 +1,17 @@
+{
+    "name": "xylem",
+    "url" : "https://github.com/tbrosman/xylem/",
+    "license": "MIT",
+    "tags": [],
+    "description": "A React-inspired UI framework with support for Heaps.",
+    "version": "0.0.1",
+    "classPath": "src/",
+    "releasenote": "Initial release.",
+    "contributors": ["tbrosman"],
+    "dependencies": {
+      "hashlink" :"0.1.0",
+      "heaps": "1.7.0",
+      "hx3compat": "1.0.3",
+      "hxmath": "0.16.0"
+    }
+  }

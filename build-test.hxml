@@ -1,0 +1,14 @@
+-cp src
+-cp test
+
+-lib heaps
+-lib hxmath
+-lib hx3compat
+
+# Provide a path to suppress errors in Res macros
+-D resourcesPath=test
+
+-main TestMain
+-debug
+
+-hl bin/test.hl
